@@ -27,6 +27,7 @@ class ForgejoRunner < Formula
     <<~EOS
       Before starting the service, you must register the runner:
         forgejo-runner register --instance [URL] --token [TOKEN]
+        mv .runner #{var}/"forgejo-runner"
 
       Then, generate the config file:
         forgejo-runner generate-config > #{etc}/forgejo-runner/config.yaml
