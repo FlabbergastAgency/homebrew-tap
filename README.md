@@ -15,8 +15,9 @@ brew tap FlabbergastAgency/tap
 
 ## Tools
 
-Below is a list of tools available from this tap, along with install commands for each.
+Below is a list of formulae available from this tap, along with install commands for each.
 
-| Tool                                                         | Command                                         |
-|--------------------------------------------------------------|-------------------------------------------------|
-| [create-api](https://github.com/FlabbergastAgency/CreateAPI) | `brew install FlabbergastAgency/tap/create-api` |
+| Tool                                                         | Command                                             |
+|--------------------------------------------------------------|-----------------------------------------------------|
+| forgejo-runner                                               | `brew install FlabbergastAgency/tap/forgejo-runner` |
+| [create-api](https://github.com/FlabbergastAgency/CreateAPI) | `brew install FlabbergastAgency/tap/create-api`     |
