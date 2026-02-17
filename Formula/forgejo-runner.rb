@@ -4,7 +4,7 @@ class ForgejoRunner < Formula
   url "https://code.forgejo.org/forgejo/runner/archive/v12.6.2.tar.gz" # Update version as needed
   sha256 "1dc29651a447678ddb992b7a00d6359f56a31ace3d7f1893f5419b838291bbd9" # Use 'curl -L [url] | shasum -a 256'
   license "GPL-3.0-or-later"
-  varsion 0.0.1
+  varsion "0.0.1"
   revision 1
 
   depends_on "go" => :build
